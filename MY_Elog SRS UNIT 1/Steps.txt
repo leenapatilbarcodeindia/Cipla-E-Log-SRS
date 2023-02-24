@@ -1,0 +1,161 @@
+E-log 7=Cleaning Record at Nitrogen Sparger
+Masters: Department, Area, User, Product
+steps:
+1. Location, Area, Month/Year will displayed on the screen.
+2. Enter Batch No.
+3. Select Product Name from dropdown.
+4. Click on Start button to start the cleaning.
+5. Click on Stop button to stop the cleaning.
+6. Enter Code Number of Nitrogen Sparger.
+7. System will capture date and user details.
+===============================================
+E-log 11: Record at DO Meter Calibration
+Master: Department, Product
+Steps: 
+1. Department, Month will be displayed on the screen.
+ *The frequency will be before start of batch manufacturing activity.
+2. Enter Batch No.
+3. Select product name from the dropdown.
+4. Enter Observed reading.
+5. System will capture date, time and user details.
+
+Validation: User should fill the Observed Reading field within limit. (Limit discussion pending with the client)
+================================================
+
+E-log 12: Issuance and Physical Verification at Sterile (S2S) Connections [pdf missing]= Similar to Elog 14 in unit 3
+Masters: User, Product
+
+1. Enter Batch No.
+2. Select Product Name from dropdown.
+3. Enter Descriotion if Material, Catalogue Number, Lot No, A.R. No. 
+4. Select date from dropdown fo Valid upto.
+
+-Verification During issuance
+1. Select Available or Not Available from dropdown for availability of supplier test certificate
+2. Select status as OK or Not OK from dropdown for Visual check of packed integrity.
+3. Select Available or Not Available from dropdown for availability of sterilization indicator.
+4. Enter Total quanitity issued.
+5. System will capture the user details.
+
+-Physical verification of ST & S2S connector.
+1. Select OK or Not OK from dropdown for Before S2S load preparation.
+2. Select OK or Not OK from dropdown for Before connection on SMT before start of SIP.
+3. Select OK or Not OK from dropdown for Before connection on pressure vessel.
+4. System will capture user details.
+
+===================================================
+E-log 13: PH Metal Electoral Maintenance 
+No masters
+Steps:
+1. Enter Electrode No. and Issuance of solution from quality control (solution issued).
+2. Enter Electrode Soaking - Using 0.1 M C=HCL/HNO3 for 15 Min (Solution used).
+3. Enter Electrode Soaking - Electrode storage solution 30 Min (Solution used).
+4. Enter filling of Electrolyte solution (solution used).
+5. Electrode saturated with electrode storage solution for at least 1 hr (solution used).
+6. System will capture user details.
+
+=====================================================
+E-log 14: Checklist for Garment Inspection
+Master: Department, Area, Do we need to create master for Activity?
+Steps:
+1. Location will be displayed on the screen.
+2. Select Activity from dropdown.
+The Activity will be Headgear/cap, Gwon/shirt/trouser, Booties, Dacron bag.
+3. Select Activity Description from dropdown.
+The description will be: Check there is no opening of stitching, Check that there are no stains, Check the fastener, Check for any holes, tear or any damage, Check that no strings / threads are hanging loose,  Check no. of Sterilization does not exceed 100 cycles 
+4. Enter Serial No. of Garnments.
+
+E-log 15: Record the Steam Sterlizer
+
+
+
+Master: Area, equipment
+Create, Review, Verify: three process
+
+Steps:
+Create:
+1. Enter Equipment Code No.
+2. Select Department/ Area from dropdown.
+3. Date, Month, Year will be capture by system.
+4. Enter Load No, Item.Load Description.
+5. Enter Load pattern No and System generated No.
+6. Enter Control Temprature in degree celcius.
+*Sterilization Time should be minimum 30 minutes
+7. Enter Start button to start cycle.
+8. Enter Stop button to stop cycle.
+9. System will capture user details. 
+
+Verify:
+1. Select Cycle accepted or Cycle not accepted from dropdown.
+===================================================================
+
+E-log 16: Checklist for Mold Changeover of FFS Machine
+
+Master: new Activity Master- ID, descritpion
+steps:
+1. Select Line No from dropdown.
+*Line numbers will be I, II, III, IV, V
+2. Select Activity Description from dropdown.
+*User should select 15 activities one by one.
+3. System will capture date and user details.
+4. SAVE
+5. Clear
+
+Verify
+1. Add remark
+================================================================
+
+
+
+
+
+Elog 17: Issuance Record for Mold Insert’
+
+No masters
+
+1. Issued By:
+1. Enter Mold insert (Pack size in ml)
+*Pack size should be 3 ml
+2. Select Type from dropdown.
+(Discussion pending)
+3. System will capture details such as Name, Time, Date of issued by user.
+
+2. Received By:
+1. System will capture details such as Name, Time, Date of received by user.
+
+3. Submitted By:
+1. System will capture details such as Name, Time, Date of submitted by user.
+
+4. Received and verified:
+1. System will capture details such as Name, Time, Date of received and verified by user.
+
+
+======================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+E-log 18: Record of Steaming of FFS Machine Mold
+No masters
+
+
+Select part of mold from dropdown.
+*Parts of mold will be Holding jaw, Main mold, Seal mold
+Click on the Start button to start the process.
+Click on the Stop button to stop the process.
+*Minimum time should be 10 minutes for the process.
+
+Validation:
+User can not click on Stop button for at least 10 minutes.
+
+
